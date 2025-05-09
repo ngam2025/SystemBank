@@ -24,7 +24,9 @@ namespace BankSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+           Counts counts = new Counts();
+            counts.Show();
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -35,6 +37,20 @@ namespace BankSystem
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            gitFromAcount gitFromAcount = new gitFromAcount();
+            gitFromAcount.Show();
+            this.Hide();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            transaction transaction = new transaction();
+            transaction.Show();
+            this.Hide();
         }
     }
 }

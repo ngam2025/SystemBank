@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,25 +63,47 @@
             this.guna2Panel1.TabIndex = 8;
             this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // label15
+            // label5
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Simplified Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(127, 24);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(200, 60);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "نظام إدارة البنك";
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(229, 606);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(177, 47);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "إدارة المستخدمين";
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 14F, System.Drawing.FontStyle.Bold);
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.label3.Location = new System.Drawing.Point(87, 384);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 36);
-            this.label3.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(61, 606);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(86, 47);
+            this.label2.TabIndex = 22;
+            this.label2.Text = "التقارير";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(274, 380);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(95, 47);
+            this.label1.TabIndex = 21;
+            this.label1.Text = "العمليات";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(61, 380);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(105, 47);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "الحسابات";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // guna2Button4
             // 
@@ -101,6 +123,7 @@
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(183, 142);
             this.guna2Button4.TabIndex = 19;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -138,6 +161,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(183, 142);
             this.guna2Button1.TabIndex = 17;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button2
             // 
@@ -159,47 +183,25 @@
             this.guna2Button2.TabIndex = 16;
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // label4
+            // label15
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(61, 380);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 47);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "الحسابات";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Simplified Arabic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(127, 24);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(200, 60);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "نظام إدارة البنك";
             // 
-            // label1
+            // label3
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(274, 380);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 47);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "العمليات";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(61, 606);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 47);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "التقارير";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(229, 606);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 47);
-            this.label5.TabIndex = 23;
-            this.label5.Text = "إدارة المستخدمين";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Trebuchet MS", 14F, System.Drawing.FontStyle.Bold);
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.label3.Location = new System.Drawing.Point(87, 384);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 36);
+            this.label3.TabIndex = 4;
             // 
             // mainInterface
             // 

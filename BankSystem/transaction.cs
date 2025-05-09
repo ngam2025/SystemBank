@@ -41,5 +41,19 @@ namespace BankSystem
         {
 
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            addNewAcount addNewAcount = new addNewAcount();
+            addNewAcount.Show();
+            this.Hide();
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
+        }
     }
 }

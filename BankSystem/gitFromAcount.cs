@@ -66,5 +66,48 @@ namespace BankSystem
         {
 
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gitFromAcount_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
+        }
     }
 }

@@ -21,5 +21,12 @@ namespace BankSystem
         {
 
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            transaction transaction = new transaction();
+            transaction.Show();
+            this.Hide();
+        }
     }
 }
