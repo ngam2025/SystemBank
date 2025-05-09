@@ -1,0 +1,16 @@
+C:\Users\HP\Desktop\BankSystem\BankSystem\bin\Debug\BankSystem.exe.config
+C:\Users\HP\Desktop\BankSystem\BankSystem\bin\Debug\BankSystem.exe
+C:\Users\HP\Desktop\BankSystem\BankSystem\bin\Debug\BankSystem.pdb
+C:\Users\HP\Desktop\BankSystem\BankSystem\bin\Debug\Guna.UI2.dll
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.addNewAcount.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.Form1.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.gitFromAcount.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.mainInterface.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.Properties.Resources.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.transaction.resources
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.csproj.Up2Date
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.exe
+C:\Users\HP\Desktop\BankSystem\BankSystem\obj\Debug\BankSystem.pdb
