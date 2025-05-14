@@ -57,7 +57,7 @@
             this.guna2Panel1.Controls.Add(this.guna2Button2);
             this.guna2Panel1.Controls.Add(this.label15);
             this.guna2Panel1.Controls.Add(this.label3);
-            this.guna2Panel1.Location = new System.Drawing.Point(181, 61);
+            this.guna2Panel1.Location = new System.Drawing.Point(263, 72);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(439, 677);
             this.guna2Panel1.TabIndex = 8;
@@ -207,7 +207,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 798);
+            this.ClientSize = new System.Drawing.Size(1031, 784);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "mainInterface";
             this.Text = "mainInterface";

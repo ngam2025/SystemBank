@@ -3,38 +3,6 @@
   "WorkspaceRootPath": "D:\\GitHup\\SystemBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\delet_acount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\delet_acount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\stop_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\stop_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -43,24 +11,60 @@
       "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\gitfromacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\add_counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\stop_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\stop_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\delet_acount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\delet_acount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\add_counts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\add_counts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\maininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\addnewacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\addnewacount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\show_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|d:\\githup\\systembank\\banksystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\edit_count.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|D:\\GitHup\\SystemBank\\banksystem\\counts_pages\\add_counts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69F58FE5-816D-4424-AF26-73A87564BE66}|BankSystem\\BankSystem.csproj|solutionrelative:banksystem\\counts_pages\\add_counts.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,35 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "delet_acount.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\delet_acount.cs",
-              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\delet_acount.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\delet_acount.cs [Design]",
-              "RelativeToolTip": "BankSystem\\counts_pages\\delet_acount.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T19:33:08.669Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Counts.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\Counts.cs",
-              "RelativeDocumentMoniker": "BankSystem\\Counts.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\Counts.cs [Design]",
-              "RelativeToolTip": "BankSystem\\Counts.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T18:54:12.128Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "show_count.cs [Design]",
               "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\show_count.cs",
               "RelativeDocumentMoniker": "BankSystem\\counts_pages\\show_count.cs",
@@ -110,19 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "stop_count.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\stop_count.cs",
-              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\stop_count.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\stop_count.cs [Design]",
-              "RelativeToolTip": "BankSystem\\counts_pages\\stop_count.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T20:15:26.294Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "add_counts.cs [Design]",
               "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\add_counts.cs",
               "RelativeDocumentMoniker": "BankSystem\\counts_pages\\add_counts.cs",
@@ -130,6 +98,42 @@
               "RelativeToolTip": "BankSystem\\counts_pages\\add_counts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T19:30:42.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gitFromAcount.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\gitFromAcount.cs",
+              "RelativeDocumentMoniker": "BankSystem\\gitFromAcount.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\gitFromAcount.cs [Design]",
+              "RelativeToolTip": "BankSystem\\gitFromAcount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:39:56.72Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "transaction.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\transaction.cs",
+              "RelativeDocumentMoniker": "BankSystem\\transaction.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\transaction.cs [Design]",
+              "RelativeToolTip": "BankSystem\\transaction.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:27:25.919Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "stop_count.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\stop_count.cs",
+              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\stop_count.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\stop_count.cs [Design]",
+              "RelativeToolTip": "BankSystem\\counts_pages\\stop_count.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T20:15:26.294Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -146,32 +150,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "transaction.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\transaction.cs",
-              "RelativeDocumentMoniker": "BankSystem\\transaction.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\transaction.cs [Design]",
-              "RelativeToolTip": "BankSystem\\transaction.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "delet_acount.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\delet_acount.cs",
+              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\delet_acount.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\delet_acount.cs [Design]",
+              "RelativeToolTip": "BankSystem\\counts_pages\\delet_acount.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:27:25.919Z",
+              "WhenOpened": "2025-05-09T19:33:08.669Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "add_counts.cs",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\add_counts.cs",
-              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\add_counts.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\add_counts.cs",
-              "RelativeToolTip": "BankSystem\\counts_pages\\add_counts.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAIA+wEcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Counts.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\Counts.cs",
+              "RelativeDocumentMoniker": "BankSystem\\Counts.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\Counts.cs [Design]",
+              "RelativeToolTip": "BankSystem\\Counts.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T20:32:41.155Z",
+              "WhenOpened": "2025-05-09T18:54:12.128Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "BankSystem\\Form1.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "BankSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:38:37.757Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "mainInterface.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\mainInterface.cs",
+              "RelativeDocumentMoniker": "BankSystem\\mainInterface.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\mainInterface.cs [Design]",
+              "RelativeToolTip": "BankSystem\\mainInterface.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:06:36.471Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "addNewAcount.cs [Design]",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\addNewAcount.cs",
+              "RelativeDocumentMoniker": "BankSystem\\addNewAcount.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\addNewAcount.cs [Design]",
+              "RelativeToolTip": "BankSystem\\addNewAcount.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:39:47.876Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "show_count.cs",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\show_count.cs",
+              "RelativeDocumentMoniker": "BankSystem\\counts_pages\\show_count.cs",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\show_count.cs",
+              "RelativeToolTip": "BankSystem\\counts_pages\\show_count.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAzwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:46:46.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\packages.config",
+              "RelativeDocumentMoniker": "BankSystem\\packages.config",
+              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\packages.config",
+              "RelativeToolTip": "BankSystem\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T12:49:00.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "edit_count.cs",
               "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\edit_count.cs",
               "RelativeDocumentMoniker": "BankSystem\\counts_pages\\edit_count.cs",
@@ -184,43 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "gitFromAcount.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\gitFromAcount.cs",
-              "RelativeDocumentMoniker": "BankSystem\\gitFromAcount.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\gitFromAcount.cs [Design]",
-              "RelativeToolTip": "BankSystem\\gitFromAcount.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:39:56.72Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "mainInterface.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\mainInterface.cs",
-              "RelativeDocumentMoniker": "BankSystem\\mainInterface.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\mainInterface.cs [Design]",
-              "RelativeToolTip": "BankSystem\\mainInterface.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:06:36.471Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\Form1.cs",
-              "RelativeDocumentMoniker": "BankSystem\\Form1.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\Form1.cs [Design]",
-              "RelativeToolTip": "BankSystem\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:38:37.757Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Counts.cs",
               "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\Counts.cs",
               "RelativeDocumentMoniker": "BankSystem\\Counts.cs",
@@ -233,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "add_counts.Designer.cs",
               "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\counts_pages\\add_counts.Designer.cs",
               "RelativeDocumentMoniker": "BankSystem\\counts_pages\\add_counts.Designer.cs",
@@ -243,17 +272,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T20:12:21.778Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "addNewAcount.cs [Design]",
-              "DocumentMoniker": "D:\\GitHup\\SystemBank\\BankSystem\\addNewAcount.cs",
-              "RelativeDocumentMoniker": "BankSystem\\addNewAcount.cs",
-              "ToolTip": "D:\\GitHup\\SystemBank\\BankSystem\\addNewAcount.cs [Design]",
-              "RelativeToolTip": "BankSystem\\addNewAcount.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:39:47.876Z"
             }
           ]
         }
