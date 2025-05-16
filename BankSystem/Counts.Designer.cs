@@ -35,7 +35,7 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.panelcontainer = new Guna.UI2.WinForms.Guna2Panel();
+            this.table = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,14 +50,14 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1031, 75);
+            this.guna2Panel1.Size = new System.Drawing.Size(1031, 79);
             this.guna2Panel1.TabIndex = 0;
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.Location = new System.Drawing.Point(3, 79);
+            this.guna2Panel2.Location = new System.Drawing.Point(3, 83);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(924, 565);
+            this.guna2Panel2.Size = new System.Drawing.Size(924, 595);
             this.guna2Panel2.TabIndex = 1;
             // 
             // guna2Button5
@@ -76,9 +76,9 @@
             this.guna2Button5.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.Black;
             this.guna2Button5.HoverState.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Button5.Location = new System.Drawing.Point(3, 12);
+            this.guna2Button5.Location = new System.Drawing.Point(3, 13);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(242, 45);
+            this.guna2Button5.Size = new System.Drawing.Size(242, 47);
             this.guna2Button5.TabIndex = 16;
             this.guna2Button5.Text = "عرض تفاصيل حساب";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -99,9 +99,9 @@
             this.guna2Button4.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.Black;
             this.guna2Button4.HoverState.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Button4.Location = new System.Drawing.Point(256, 12);
+            this.guna2Button4.Location = new System.Drawing.Point(256, 13);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(166, 45);
+            this.guna2Button4.Size = new System.Drawing.Size(166, 47);
             this.guna2Button4.TabIndex = 15;
             this.guna2Button4.Text = "توقيف حساب";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -122,9 +122,9 @@
             this.guna2Button3.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.HoverState.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Button3.Location = new System.Drawing.Point(423, 12);
+            this.guna2Button3.Location = new System.Drawing.Point(423, 13);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(168, 45);
+            this.guna2Button3.Size = new System.Drawing.Size(168, 47);
             this.guna2Button3.TabIndex = 14;
             this.guna2Button3.Text = "تعديل حساب";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
@@ -145,9 +145,9 @@
             this.guna2Button1.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
             this.guna2Button1.HoverState.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Button1.Location = new System.Drawing.Point(597, 12);
+            this.guna2Button1.Location = new System.Drawing.Point(597, 13);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(165, 45);
+            this.guna2Button1.Size = new System.Drawing.Size(165, 47);
             this.guna2Button1.TabIndex = 13;
             this.guna2Button1.Text = "حذف حساب";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -169,31 +169,32 @@
             this.guna2Button2.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.HoverState.CustomBorderColor = System.Drawing.Color.Silver;
-            this.guna2Button2.Location = new System.Drawing.Point(783, 12);
+            this.guna2Button2.Location = new System.Drawing.Point(783, 13);
             this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(195, 45);
+            this.guna2Button2.Size = new System.Drawing.Size(195, 47);
             this.guna2Button2.TabIndex = 12;
             this.guna2Button2.Text = "  اضافه حساب";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
-            // panelcontainer
+            // table
             // 
-            this.panelcontainer.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
-            this.panelcontainer.BorderThickness = 1;
-            this.panelcontainer.Location = new System.Drawing.Point(0, 79);
-            this.panelcontainer.Name = "panelcontainer";
-            this.panelcontainer.Size = new System.Drawing.Size(1031, 565);
-            this.panelcontainer.TabIndex = 1;
+            this.table.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
+            this.table.BorderThickness = 1;
+            this.table.Location = new System.Drawing.Point(0, 83);
+            this.table.Name = "table";
+            this.table.Size = new System.Drawing.Size(1031, 595);
+            this.table.TabIndex = 1;
             // 
             // Counts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1031, 784);
-            this.Controls.Add(this.panelcontainer);
+            this.ClientSize = new System.Drawing.Size(1031, 825);
+            this.Controls.Add(this.table);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Counts";
             this.Text = "Counts";
+            this.Load += new System.EventHandler(this.Counts_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -207,7 +208,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Panel panelcontainer;
+        private Guna.UI2.WinForms.Guna2Panel table;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }

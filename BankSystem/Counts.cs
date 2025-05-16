@@ -30,8 +30,8 @@ namespace BankSystem
         private void  addUserControl(UserControl userControl)
         {
             userControl.Dock = DockStyle.Fill;
-            panelcontainer.Controls.Clear();
-            panelcontainer.Controls.Add(userControl);
+            table.Controls.Clear();
+            table.Controls.Add(userControl);
             userControl.BringToFront();
         }
 
@@ -59,5 +59,11 @@ namespace BankSystem
             show_count show_Count = new show_count();
             addUserControl(show_Count);
         }
+
+        private void Counts_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
