@@ -30,14 +30,19 @@
         {
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.BranchID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.phot = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.IDCardimage = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.Photo = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.IDcard = new Guna.UI2.WinForms.Guna2TextBox();
             this.Blance = new Guna.UI2.WinForms.Guna2TextBox();
             this.phoneNamber = new Guna.UI2.WinForms.Guna2TextBox();
             this.LastName = new Guna.UI2.WinForms.Guna2TextBox();
             this.AccountType = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,14 +52,9 @@
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.IDCardimage = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.Photo = new System.Windows.Forms.Label();
-            this.phot = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.BranchID = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Button2
@@ -109,6 +109,87 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(467, 970);
             this.guna2Panel1.TabIndex = 49;
+            // 
+            // BranchID
+            // 
+            this.BranchID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.BranchID.BorderRadius = 15;
+            this.BranchID.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.BranchID.DefaultText = "";
+            this.BranchID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.BranchID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.BranchID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.BranchID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.BranchID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.BranchID.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BranchID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.BranchID.Location = new System.Drawing.Point(68, 845);
+            this.BranchID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BranchID.Name = "BranchID";
+            this.BranchID.PlaceholderText = "";
+            this.BranchID.SelectedText = "";
+            this.BranchID.Size = new System.Drawing.Size(371, 37);
+            this.BranchID.TabIndex = 103;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(347, 713);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 41);
+            this.label9.TabIndex = 67;
+            this.label9.Text = ":الرصيد";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // phot
+            // 
+            this.phot.ImageRotate = 0F;
+            this.phot.Location = new System.Drawing.Point(68, 557);
+            this.phot.Name = "phot";
+            this.phot.Size = new System.Drawing.Size(371, 65);
+            this.phot.TabIndex = 102;
+            this.phot.TabStop = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(304, 625);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(121, 41);
+            this.label7.TabIndex = 63;
+            this.label7.Text = ":نوع الحساب";
+            this.label7.Click += new System.EventHandler(this.label7_Click_1);
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(295, 517);
+            this.label10.Name = "label10";
+            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label10.Size = new System.Drawing.Size(129, 40);
+            this.label10.TabIndex = 100;
+            this.label10.Text = "الصورة:";
+            // 
+            // IDCardimage
+            // 
+            this.IDCardimage.ImageRotate = 0F;
+            this.IDCardimage.Location = new System.Drawing.Point(68, 433);
+            this.IDCardimage.Name = "IDCardimage";
+            this.IDCardimage.Size = new System.Drawing.Size(371, 77);
+            this.IDCardimage.TabIndex = 99;
+            this.IDCardimage.TabStop = false;
+            // 
+            // Photo
+            // 
+            this.Photo.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Photo.Location = new System.Drawing.Point(207, 390);
+            this.Photo.Name = "Photo";
+            this.Photo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Photo.Size = new System.Drawing.Size(221, 40);
+            this.Photo.TabIndex = 97;
+            this.Photo.Text = "صورة البطاقة الشخصية:";
             // 
             // label11
             // 
@@ -223,28 +304,6 @@
             this.AccountType.Size = new System.Drawing.Size(371, 36);
             this.AccountType.TabIndex = 69;
             this.AccountType.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox4_SelectedIndexChanged_1);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(347, 713);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 41);
-            this.label9.TabIndex = 67;
-            this.label9.Text = ":الرصيد";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(304, 625);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 41);
-            this.label7.TabIndex = 63;
-            this.label7.Text = ":نوع الحساب";
-            this.label7.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // label6
             // 
@@ -362,65 +421,6 @@
             this.label3.Size = new System.Drawing.Size(0, 36);
             this.label3.TabIndex = 4;
             // 
-            // IDCardimage
-            // 
-            this.IDCardimage.ImageRotate = 0F;
-            this.IDCardimage.Location = new System.Drawing.Point(68, 433);
-            this.IDCardimage.Name = "IDCardimage";
-            this.IDCardimage.Size = new System.Drawing.Size(371, 77);
-            this.IDCardimage.TabIndex = 99;
-            this.IDCardimage.TabStop = false;
-            // 
-            // Photo
-            // 
-            this.Photo.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Photo.Location = new System.Drawing.Point(207, 390);
-            this.Photo.Name = "Photo";
-            this.Photo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Photo.Size = new System.Drawing.Size(221, 40);
-            this.Photo.TabIndex = 97;
-            this.Photo.Text = "صورة البطاقة الشخصية:";
-            // 
-            // phot
-            // 
-            this.phot.ImageRotate = 0F;
-            this.phot.Location = new System.Drawing.Point(68, 557);
-            this.phot.Name = "phot";
-            this.phot.Size = new System.Drawing.Size(371, 65);
-            this.phot.TabIndex = 102;
-            this.phot.TabStop = false;
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(295, 517);
-            this.label10.Name = "label10";
-            this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label10.Size = new System.Drawing.Size(129, 40);
-            this.label10.TabIndex = 100;
-            this.label10.Text = "الصورة:";
-            // 
-            // BranchID
-            // 
-            this.BranchID.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.BranchID.BorderRadius = 15;
-            this.BranchID.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.BranchID.DefaultText = "";
-            this.BranchID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.BranchID.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.BranchID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.BranchID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.BranchID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.BranchID.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.BranchID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.BranchID.Location = new System.Drawing.Point(68, 845);
-            this.BranchID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BranchID.Name = "BranchID";
-            this.BranchID.PlaceholderText = "";
-            this.BranchID.SelectedText = "";
-            this.BranchID.Size = new System.Drawing.Size(371, 37);
-            this.BranchID.TabIndex = 103;
-            // 
             // add_counts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -428,11 +428,11 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-            this.Size = new System.Drawing.Size(1027, 840);
+            this.Size = new System.Drawing.Size(1001, 1029);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).EndInit();
             this.ResumeLayout(false);
 
         }
