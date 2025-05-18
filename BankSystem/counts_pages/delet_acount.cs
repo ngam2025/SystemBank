@@ -27,23 +27,25 @@ namespace BankSystem.counts_pages
         }
         private void deleteAcount()
         {
-            
 
-            using (var conn = new SqlConnection(strConn))
-            using (var cmd = new SqlCommand("DeleteAccount", conn))
+            string sql = "delete from Employees where AccountNumber=" + guna2TextBox2.Text;
+            using (SqlConnection conn = new SqlConnection(strConn))
             {
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@AccountNumber", guna2TextBox2.Text);
-
-                conn.Open();
-                try
+                using (var cmd = new SqlCommand(sql, conn))
                 {
-                    cmd.ExecuteNonQuery();
-                    MessageBox.Show("تم حذف الحساب بنجاح.");
-                }
-                catch (SqlException ex)
-                {
-                    MessageBox.Show("خطأ: " + ex.Message, "فشل الحذف", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    try
+                    {
+                        conn.Open();
+                        int i = cmd.ExecuteNonQuery();
+                        if (i == 0)
+                        {
+                            MessageBox.Show("تم حذف الحساب بنجاح.");
+                        }
+                    }
+                    catch (SqlException ex)
+                    {
+                        MessageBox.Show("خطأ: " + ex.Message, "فشل الحذف", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
         }

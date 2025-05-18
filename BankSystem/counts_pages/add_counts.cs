@@ -15,6 +15,8 @@ namespace BankSystem.counts_pages
 {
     public partial class add_counts : UserControl
     {
+        private string fileCardImage;
+        private string filePhoto;
         public add_counts()
         {
             InitializeComponent();
@@ -109,7 +111,8 @@ namespace BankSystem.counts_pages
             string strConn = ConfigurationManager.ConnectionStrings[1].ConnectionString;
             using (SqlConnection conn = new SqlConnection(strConn))
             {
-                SqlCommand cmd = new SqlCommand("createCustomerWithAccount", conn);
+                
+                SqlCommand cmd = new SqlCommand(" [dbo].[createCustomerWithAccount]", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 
@@ -125,7 +128,7 @@ namespace BankSystem.counts_pages
                 {
                     conn.Open();
                     int result = cmd.ExecuteNonQuery();
-                    if (result > 0)
+                    if (result !=0)
                     {
                         MessageBox.Show("تمت إضافة الحساب بنجاح!");
                     }
@@ -138,6 +141,26 @@ namespace BankSystem.counts_pages
                 {
                     MessageBox.Show("Error: " + ex.Message);
                 }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                this.fileCardImage = dlg.FileName;
+                IDCardimage.Image = Image.FromFile(fileCardImage);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            if (dialog.ShowDialog() == DialogResult.OK)
+            {
+                this.filePhoto = dialog.FileName;
+                IDCardimage.Image = Image.FromFile(filePhoto);
             }
         }
     }

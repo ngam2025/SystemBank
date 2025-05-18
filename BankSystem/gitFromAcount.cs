@@ -22,71 +22,100 @@ namespace BankSystem
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
         }
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+
             DepositToAccount(AccountNum.Text,decimal.Parse(amount.Text),int .Parse(accId.Text));
 
         }
-        public void DepositToAccount(string accountNum, decimal amount,int id)
+        public void DepositToAccount(string accountNum, decimal amount, int id)
         {
-            
-            using (var conn = new SqlConnection(strConn))
-            using (var cmd = new SqlCommand("DepositToAccount", conn))
+            SqlConnection conn = new SqlConnection(strConn);
+            SqlCommand cmd = new SqlCommand("DepositToAccount", conn);
+            try
             {
+                conn.Open();
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@AccountNumber", accountNum);
                 cmd.Parameters.AddWithValue("@Amount", amount);
                 cmd.Parameters.AddWithValue("@AccountID", id);
 
-                conn.Open();
-                cmd.ExecuteNonQuery();
+                
+                int i=cmd.ExecuteNonQuery();
+                if (i > 0) {
+                    MessageBox.Show("تم الايداع");
+                }
+                else
+                {
+                    MessageBox.Show("فشل الايداع");
+                }
+                
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                conn.Close();
             }
         }
+        
         public void WithdrawFromAccount(string AccountNumber, decimal amount)
         {
-            using (var conn = new SqlConnection(strConn))
-            using (var cmd = new SqlCommand("WithdrawFromAccount", conn))
+            SqlConnection conn = new SqlConnection(strConn);
+            SqlCommand cmd = new SqlCommand("WithdrawFromAccount", conn);
+            try
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@AccountNumber", AccountNumber);
                 cmd.Parameters.AddWithValue("@Amount", amount);
-
+                
                 conn.Open();
-                try
-                {
-                    cmd.ExecuteNonQuery();
+                int i=cmd.ExecuteNonQuery();
                 }
                 catch (SqlException ex) when (ex.Number == 50002)
                 {
                     
                     MessageBox.Show("الرصيد غير كافٍ للسحب.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
+            finally
+            {
+                conn.Close();
+            }
+            
         }
         public void TransferFunds(string senderAccountNumber, string receiverAccountNumber, decimal amount,string des)
         {
-            using (var conn = new SqlConnection(strConn))
-            using (var cmd = new SqlCommand("TransferFunds", conn))
-            {
+            SqlConnection conn = new SqlConnection(strConn);
+            SqlCommand cmd = new SqlCommand("TransferFunds", conn);
+            
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@SenderAccountNumber", senderAccountNumber);
                 cmd.Parameters.AddWithValue("@ReceiverAccountNumber", receiverAccountNumber);
                 cmd.Parameters.AddWithValue("@Amount", amount);
                 cmd.Parameters.AddWithValue("@Description",des);
-
-                conn.Open();
                 try
                 {
-                    cmd.ExecuteNonQuery();
+                conn.Open();
+                int i=cmd.ExecuteNonQuery();
+                
+
                 }
                 catch (SqlException ex) when (ex.Number == 50003)
                 {
                     MessageBox.Show("الرصيد غير كافٍ في حساب المرسل.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
             }
+            finally
+            {
+                conn.Close();
+            }
+            
         }
 
         private void guna2TextBox5_TextChanged(object sender, EventArgs e)
@@ -175,6 +204,20 @@ namespace BankSystem
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             TransferFunds(sendAcount.Text,rAccountN.Text,decimal.Parse(amount3.Text), description.Text);
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
         }
     }
 }
