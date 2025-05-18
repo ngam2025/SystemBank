@@ -123,31 +123,31 @@
             this.BranchID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.BranchID.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BranchID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.BranchID.Location = new System.Drawing.Point(68, 845);
-=======
+//=======
             this.BranchID.Location = new System.Drawing.Point(68, 889);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.BranchID.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BranchID.Name = "BranchID";
             this.BranchID.PlaceholderText = "";
             this.BranchID.SelectedText = "";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.BranchID.Size = new System.Drawing.Size(371, 37);
-=======
+//=======
             this.BranchID.Size = new System.Drawing.Size(371, 39);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.BranchID.TabIndex = 103;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.label9.Location = new System.Drawing.Point(347, 713);
-=======
+//=======
             this.label9.Location = new System.Drawing.Point(347, 751);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(78, 41);
             this.label9.TabIndex = 67;
@@ -157,15 +157,15 @@
             // phot
             // 
             this.phot.ImageRotate = 0F;
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.phot.Location = new System.Drawing.Point(68, 557);
             this.phot.Name = "phot";
             this.phot.Size = new System.Drawing.Size(371, 65);
-=======
+//=======
             this.phot.Location = new System.Drawing.Point(68, 586);
             this.phot.Name = "phot";
             this.phot.Size = new System.Drawing.Size(371, 68);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.phot.TabIndex = 102;
             this.phot.TabStop = false;
             // 
@@ -173,11 +173,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.label7.Location = new System.Drawing.Point(304, 625);
-=======
+//=======
             this.label7.Location = new System.Drawing.Point(304, 658);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(121, 41);
             this.label7.TabIndex = 63;
@@ -187,49 +187,49 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.label10.Location = new System.Drawing.Point(295, 517);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label10.Size = new System.Drawing.Size(129, 40);
-=======
+//=======
             this.label10.Location = new System.Drawing.Point(295, 544);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label10.Size = new System.Drawing.Size(129, 42);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.label10.TabIndex = 100;
             this.label10.Text = "الصورة:";
             // 
             // IDCardimage
             // 
             this.IDCardimage.ImageRotate = 0F;
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.IDCardimage.Location = new System.Drawing.Point(68, 433);
             this.IDCardimage.Name = "IDCardimage";
             this.IDCardimage.Size = new System.Drawing.Size(371, 77);
-=======
+//=======
             this.IDCardimage.Location = new System.Drawing.Point(68, 456);
             this.IDCardimage.Name = "IDCardimage";
             this.IDCardimage.Size = new System.Drawing.Size(371, 81);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.IDCardimage.TabIndex = 99;
             this.IDCardimage.TabStop = false;
             // 
             // Photo
             // 
             this.Photo.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.Photo.Location = new System.Drawing.Point(207, 390);
             this.Photo.Name = "Photo";
             this.Photo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Photo.Size = new System.Drawing.Size(221, 40);
-=======
+//=======
             this.Photo.Location = new System.Drawing.Point(207, 411);
             this.Photo.Name = "Photo";
             this.Photo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Photo.Size = new System.Drawing.Size(221, 42);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.Photo.TabIndex = 97;
             this.Photo.Text = "صورة البطاقة الشخصية:";
             // 
@@ -473,12 +473,12 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             this.Size = new System.Drawing.Size(1001, 1029);
-=======
+//=======
             this.Size = new System.Drawing.Size(923, 884);
             this.Load += new System.EventHandler(this.add_counts_Load);
->>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
+//>>>>>>> 4d730cc8306160c20e2dcbda6d1bb99c1512cdd3
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).EndInit();
