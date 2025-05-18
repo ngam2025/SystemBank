@@ -62,7 +62,7 @@ namespace BankSystem.counts_pages
 
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@AccountNumber", guna2TextBox2.Text);
-            cmd.CommandType = CommandType.StoredProcedure;
+            
             cmd.Parameters.AddWithValue("@newAccountType", guna2ComboBox2.Text);
             cmd.Parameters.AddWithValue("@newPhone", guna2TextBox5.Text);
 
@@ -95,27 +95,42 @@ namespace BankSystem.counts_pages
         }
         private void searchAccount()
         {
-            SqlConnection conn = new SqlConnection(strConn);
-            var cmd = new SqlCommand("serchAcount", conn);
 
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@AccountNumber", guna2TextBox2.Text);
+            label4.Text = "";
+            label12.Text = "";
+            
 
-            try
+            using (SqlConnection conn = new SqlConnection(strConn))
             {
-                conn.Open();
-                var rd = cmd.ExecuteReader();
-                label4.Text += "\n" + rd[0].ToString();
-                label12.Text += "\n" + rd[1].ToString();
-                
+                var cmd = new SqlCommand("serchAcount", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@AccountNumber", guna2TextBox2.Text);
+
+                try
+                {
+                    conn.Open();
+                    using (var rd = cmd.ExecuteReader())
+                    {
+                        if (rd.Read())
+                        {
+                            label4.Text = rd[0].ToString();
+                            label12.Text = rd[1].ToString();
+                            
+                        }
+                        else
+                        {
+                            MessageBox.Show("لا يوجد حساب بهذا الرقم", "نتيجة البحث",
+                                          MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("خطأ في البحث: " + ex.Message, "خطأ",
+                                  MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
-            catch (SqlException ex)
-            {
-
-
-            }
-            finally { conn.Close(); }
-
         }
+      
     }
 }

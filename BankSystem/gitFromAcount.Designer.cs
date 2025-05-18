@@ -192,6 +192,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(114, 45);
             this.guna2Button1.TabIndex = 38;
             this.guna2Button1.Text = "إلغاء";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // guna2Button2
             // 
@@ -382,6 +383,7 @@
             this.guna2Button5.Size = new System.Drawing.Size(114, 45);
             this.guna2Button5.TabIndex = 27;
             this.guna2Button5.Text = "إلغاء";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button4
             // 
@@ -434,6 +436,9 @@
             this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox2.ItemHeight = 30;
+            this.guna2ComboBox2.Items.AddRange(new object[] {
+            "توفير",
+            "جاري"});
             this.guna2ComboBox2.Location = new System.Drawing.Point(112, 191);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.Size = new System.Drawing.Size(358, 36);

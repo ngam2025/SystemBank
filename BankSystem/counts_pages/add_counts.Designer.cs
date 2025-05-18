@@ -52,6 +52,8 @@
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).BeginInit();
@@ -82,6 +84,8 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
             this.guna2Panel1.BorderRadius = 15;
             this.guna2Panel1.BorderThickness = 2;
+            this.guna2Panel1.Controls.Add(this.button2);
+            this.guna2Panel1.Controls.Add(this.button1);
             this.guna2Panel1.Controls.Add(this.BranchID);
             this.guna2Panel1.Controls.Add(this.label9);
             this.guna2Panel1.Controls.Add(this.phot);
@@ -145,9 +149,9 @@
             // phot
             // 
             this.phot.ImageRotate = 0F;
-            this.phot.Location = new System.Drawing.Point(68, 586);
+            this.phot.Location = new System.Drawing.Point(183, 586);
             this.phot.Name = "phot";
-            this.phot.Size = new System.Drawing.Size(371, 68);
+            this.phot.Size = new System.Drawing.Size(256, 68);
             this.phot.TabIndex = 102;
             this.phot.TabStop = false;
             // 
@@ -175,9 +179,9 @@
             // IDCardimage
             // 
             this.IDCardimage.ImageRotate = 0F;
-            this.IDCardimage.Location = new System.Drawing.Point(68, 456);
+            this.IDCardimage.Location = new System.Drawing.Point(183, 456);
             this.IDCardimage.Name = "IDCardimage";
-            this.IDCardimage.Size = new System.Drawing.Size(371, 81);
+            this.IDCardimage.Size = new System.Drawing.Size(256, 81);
             this.IDCardimage.TabIndex = 99;
             this.IDCardimage.TabStop = false;
             // 
@@ -424,6 +428,26 @@
             this.label3.Size = new System.Drawing.Size(0, 36);
             this.label3.TabIndex = 4;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(54, 468);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 51);
+            this.button1.TabIndex = 104;
+            this.button1.Text = "اختيار صورة";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(54, 586);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 51);
+            this.button2.TabIndex = 105;
+            this.button2.Text = "اختيار صورة";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // add_counts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -431,7 +455,7 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-            this.Size = new System.Drawing.Size(923, 884);
+            this.Size = new System.Drawing.Size(897, 884);
             this.Load += new System.EventHandler(this.add_counts_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -466,5 +490,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox IDCardimage;
         private System.Windows.Forms.Label Photo;
         private Guna.UI2.WinForms.Guna2TextBox BranchID;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
