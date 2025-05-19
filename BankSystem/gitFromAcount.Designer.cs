@@ -62,7 +62,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.id = new Guna.UI2.WinForms.Guna2TextBox();
             this.accId = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -495,7 +495,7 @@
             this.tabPage3.Controls.Add(this.label11);
             this.tabPage3.Controls.Add(this.label13);
             this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.guna2TextBox4);
+            this.tabPage3.Controls.Add(this.id);
             this.tabPage3.Controls.Add(this.accId);
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
@@ -517,7 +517,7 @@
             this.AccountNum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.AccountNum.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.AccountNum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AccountNum.Location = new System.Drawing.Point(111, 165);
+            this.AccountNum.Location = new System.Drawing.Point(92, 165);
             this.AccountNum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AccountNum.Name = "AccountNum";
             this.AccountNum.PlaceholderText = "";
@@ -594,7 +594,7 @@
             this.amount.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.amount.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.amount.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amount.Location = new System.Drawing.Point(118, 289);
+            this.amount.Location = new System.Drawing.Point(99, 288);
             this.amount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amount.Name = "amount";
             this.amount.PlaceholderText = "";
@@ -636,26 +636,26 @@
             this.label14.TabIndex = 28;
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // guna2TextBox4
+            // id
             // 
-            this.guna2TextBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.guna2TextBox4.BorderRadius = 15;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(111, 64);
-            this.guna2TextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(365, 44);
-            this.guna2TextBox4.TabIndex = 26;
+            this.id.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.id.BorderRadius = 15;
+            this.id.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.id.DefaultText = "";
+            this.id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.id.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.id.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.id.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.id.Location = new System.Drawing.Point(92, 64);
+            this.id.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.id.Name = "id";
+            this.id.PlaceholderText = "";
+            this.id.SelectedText = "";
+            this.id.Size = new System.Drawing.Size(365, 44);
+            this.id.TabIndex = 26;
             // 
             // accId
             // 
@@ -731,7 +731,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox id;
         private System.Windows.Forms.Label accId;
         private System.Windows.Forms.Label label15;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;

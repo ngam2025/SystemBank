@@ -56,6 +56,8 @@
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.nameFull = new System.Windows.Forms.Label();
+            this.numberPhone = new System.Windows.Forms.Label();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -180,6 +182,10 @@
             this.guna2ComboBox4.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2ComboBox4.ItemHeight = 30;
+            this.guna2ComboBox4.Items.AddRange(new object[] {
+            "",
+            "توفير",
+            "جاري"});
             this.guna2ComboBox4.Location = new System.Drawing.Point(68, 518);
             this.guna2ComboBox4.Name = "guna2ComboBox4";
             this.guna2ComboBox4.Size = new System.Drawing.Size(371, 36);
@@ -228,10 +234,10 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(217, 177);
+            this.label4.Location = new System.Drawing.Point(222, 165);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(205, 81);
+            this.label4.Size = new System.Drawing.Size(205, 48);
             this.label4.TabIndex = 80;
             this.label4.Text = "اسم ساحب الحساب:";
             // 
@@ -242,7 +248,7 @@
             this.guna2Panel2.Controls.Add(this.label10);
             this.guna2Panel2.Controls.Add(this.guna2Panel3);
             this.guna2Panel2.Controls.Add(this.label6);
-            this.guna2Panel2.Location = new System.Drawing.Point(231, 286);
+            this.guna2Panel2.Location = new System.Drawing.Point(230, 273);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(200, 3);
             this.guna2Panel2.TabIndex = 81;
@@ -313,6 +319,8 @@
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
             this.guna2Panel1.BorderRadius = 15;
             this.guna2Panel1.BorderThickness = 2;
+            this.guna2Panel1.Controls.Add(this.numberPhone);
+            this.guna2Panel1.Controls.Add(this.nameFull);
             this.guna2Panel1.Controls.Add(this.guna2Panel6);
             this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
@@ -405,12 +413,30 @@
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(222, 317);
+            this.label12.Location = new System.Drawing.Point(222, 291);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label12.Size = new System.Drawing.Size(205, 81);
+            this.label12.Size = new System.Drawing.Size(205, 40);
             this.label12.TabIndex = 82;
             this.label12.Text = "رقم الهاتف القديم:";
+            // 
+            // nameFull
+            // 
+            this.nameFull.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameFull.Location = new System.Drawing.Point(195, 213);
+            this.nameFull.Name = "nameFull";
+            this.nameFull.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.nameFull.Size = new System.Drawing.Size(205, 48);
+            this.nameFull.TabIndex = 84;
+            // 
+            // numberPhone
+            // 
+            this.numberPhone.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberPhone.Location = new System.Drawing.Point(195, 330);
+            this.numberPhone.Name = "numberPhone";
+            this.numberPhone.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.numberPhone.Size = new System.Drawing.Size(205, 48);
+            this.numberPhone.TabIndex = 85;
             // 
             // edit_count
             // 
@@ -419,7 +445,7 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "edit_count";
-            this.Size = new System.Drawing.Size(1001, 884);
+            this.Size = new System.Drawing.Size(975, 884);
             this.Load += new System.EventHandler(this.edit_count_Load);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
@@ -461,5 +487,7 @@
         private System.Windows.Forms.Label label13;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label numberPhone;
+        private System.Windows.Forms.Label nameFull;
     }
 }

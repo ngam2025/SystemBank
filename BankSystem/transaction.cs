@@ -62,28 +62,24 @@ namespace BankSystem
         }
         private void deleteEmployee(int id)
         {
-            
-            
-            string sql = "delete from Employees" +
-                "where EmployeeID=@id";
+            string sql = "DELETE FROM Employees WHERE EmployeeID = @EmployeeID"; 
+
             using (SqlConnection conn = new SqlConnection(connectString))
             {
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {
                     conn.Open();
-                    cmd.Parameters.AddWithValue("@EmployeeID",id);
-                    int i=cmd.ExecuteNonQuery();
-                    if (i > 0) {
+                    cmd.Parameters.AddWithValue("@EmployeeID", id);
+
+                    int i = cmd.ExecuteNonQuery();
+
+                    if (i > 0)
                         MessageBox.Show("تم الحذف بنجاح");
-                    }
                     else
-                    {
-                        MessageBox.Show("فشل في الحذف");
-                    }
-
+                        MessageBox.Show("فشل في الحذف قد يكون الموظف غير موجود)");
                 }
-
-        }   }
+            }
+        }
         private void displayEmployees()
         {
 
@@ -154,7 +150,27 @@ namespace BankSystem
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            string idtext = guna2TextBox3.Text;
+            if (string.IsNullOrEmpty(idtext))
+            {
+                MessageBox.Show("يرجى ادخال رقم المستخدم");
+                return;
+            }
+            try
+            {
+                result.DefaultView.RowFilter = "$ID= { idtext}";
+                guna2DataGridView1.DataSource = result.DefaultView;
+            }
+            catch (Exception ex) {
+                MessageBox.Show("error " + ex);
+            }
+                        
 
+        }
+
+        private void guna2TextBox3_MouseEnter(object sender, EventArgs e)
+        {
+            guna2TextBox3 .Text= " ";
         }
     }
 }

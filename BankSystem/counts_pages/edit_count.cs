@@ -96,10 +96,7 @@ namespace BankSystem.counts_pages
         private void searchAccount()
         {
 
-            label4.Text = "";
-            label12.Text = "";
             
-
             using (SqlConnection conn = new SqlConnection(strConn))
             {
                 var cmd = new SqlCommand("serchAcount", conn);
@@ -113,8 +110,8 @@ namespace BankSystem.counts_pages
                     {
                         if (rd.Read())
                         {
-                            label4.Text = rd[0].ToString();
-                            label12.Text = rd[1].ToString();
+                            nameFull.Text = rd[0].ToString();
+                            numberPhone.Text = rd[1].ToString();
                             
                         }
                         else
