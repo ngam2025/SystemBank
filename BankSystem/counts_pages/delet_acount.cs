@@ -25,34 +25,43 @@ namespace BankSystem.counts_pages
         {
             
         }
-        private void deleteAcount()
+        private void deleteAccount()
         {
+            
+            string sql = "DELETE FROM Employees WHERE AccountNumber = @AccountNumber";
 
-            string sql = "delete from Employees where AccountNumber=" + guna2TextBox2.Text;
             using (SqlConnection conn = new SqlConnection(strConn))
+            using (SqlCommand cmd = new SqlCommand(sql, conn))
             {
-                using (var cmd = new SqlCommand(sql, conn))
+                cmd.CommandType = CommandType.Text;
+
+                
+                string accountNumber = guna2TextBox2.Text;
+                cmd.Parameters.AddWithValue("@AccountNumber", accountNumber);
+
+                try
                 {
-                    try
+                    conn.Open();
+                    int rowsAffected = cmd.ExecuteNonQuery();
+                    if (rowsAffected > 0)
                     {
-                        conn.Open();
-                        int i = cmd.ExecuteNonQuery();
-                        if (i == 0)
-                        {
-                            MessageBox.Show("تم حذف الحساب بنجاح.");
-                        }
+                        MessageBox.Show("تم حذف الحساب بنجاح.", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
-                    catch (SqlException ex)
+                    else
                     {
-                        MessageBox.Show("خطأ: " + ex.Message, "فشل الحذف", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("لم يتم العثور على الحساب.", "تنبيه", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
+                }
+                catch (SqlException ex)
+                {
+                    MessageBox.Show("خطأ في قاعدة البيانات: " + ex.Message, "فشل الحذف", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            deleteAcount();
+            deleteAccount();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -61,27 +70,23 @@ namespace BankSystem.counts_pages
         }
         private void searchAccount()
         {
-            
-            label4.Text = "";
-            label2.Text = "";
-            label7.Text = "";
 
             using (SqlConnection conn = new SqlConnection(strConn))
             {
-                var cmd = new SqlCommand("serchAcount", conn);
+                SqlCommand cmd = new SqlCommand("serchAcount", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@AccountNumber", guna2TextBox2.Text);
 
                 try
                 {
                     conn.Open();
-                    using (var rd = cmd.ExecuteReader())
+                    using (SqlDataReader rd = cmd.ExecuteReader())
                     {
                         if (rd.Read()) 
                         {
-                            label4.Text = rd[0].ToString();
-                            label2.Text = rd[1].ToString();
-                            label7.Text = rd[2].ToString();
+                            namefull.Text = rd[0].ToString();
+                            numberPhone.Text = rd[1].ToString();
+                            typeA.Text = rd[2].ToString();
                         }
                         else
                         {

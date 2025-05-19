@@ -30,6 +30,8 @@
         {
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.BranchID = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.phot = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -52,8 +54,6 @@
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).BeginInit();
@@ -113,6 +113,26 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(467, 1021);
             this.guna2Panel1.TabIndex = 49;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(54, 586);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 51);
+            this.button2.TabIndex = 105;
+            this.button2.Text = "اختيار صورة";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(54, 468);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 51);
+            this.button1.TabIndex = 104;
+            this.button1.Text = "اختيار صورة";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BranchID
             // 
@@ -304,7 +324,9 @@
             this.AccountType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.AccountType.ItemHeight = 30;
             this.AccountType.Items.AddRange(new object[] {
-            "توفير"});
+            "",
+            "توفير",
+            "جاري"});
             this.AccountType.Location = new System.Drawing.Point(68, 704);
             this.AccountType.Name = "AccountType";
             this.AccountType.Size = new System.Drawing.Size(371, 36);
@@ -428,26 +450,6 @@
             this.label3.Size = new System.Drawing.Size(0, 36);
             this.label3.TabIndex = 4;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(54, 468);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 51);
-            this.button1.TabIndex = 104;
-            this.button1.Text = "اختيار صورة";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(54, 586);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(112, 51);
-            this.button2.TabIndex = 105;
-            this.button2.Text = "اختيار صورة";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // add_counts
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -455,7 +457,7 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-            this.Size = new System.Drawing.Size(897, 884);
+            this.Size = new System.Drawing.Size(871, 884);
             this.Load += new System.EventHandler(this.add_counts_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

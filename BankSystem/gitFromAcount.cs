@@ -26,13 +26,6 @@ namespace BankSystem
             mainInterface.Show();
             this.Hide();
         }
-
-        private void guna2Button6_Click(object sender, EventArgs e)
-        {
-
-            DepositToAccount(AccountNum.Text,decimal.Parse(amount.Text),int .Parse(accId.Text));
-
-        }
         public void DepositToAccount(string accountNum, decimal amount, int id)
         {
             SqlConnection conn = new SqlConnection(strConn);
@@ -45,16 +38,17 @@ namespace BankSystem
                 cmd.Parameters.AddWithValue("@Amount", amount);
                 cmd.Parameters.AddWithValue("@AccountID", id);
 
-                
-                int i=cmd.ExecuteNonQuery();
-                if (i > 0) {
+
+                int i = cmd.ExecuteNonQuery();
+                if (i > 0)
+                {
                     MessageBox.Show("تم الايداع");
                 }
                 else
                 {
                     MessageBox.Show("فشل الايداع");
                 }
-                
+
             }
             catch (SqlException ex)
             {
@@ -65,9 +59,18 @@ namespace BankSystem
                 conn.Close();
             }
         }
-        
-        public void WithdrawFromAccount(string AccountNumber, decimal amount)
+
+        private void guna2Button6_Click(object sender, EventArgs e)
         {
+            
+            DepositToAccount(AccountNum.Text,decimal.Parse(amount.Text),int .Parse(id.Text));
+
+        }
+       
+        
+        public bool WithdrawFromAccount(string AccountNumber, decimal amount)
+        {
+            bool rsult=false;
             SqlConnection conn = new SqlConnection(strConn);
             SqlCommand cmd = new SqlCommand("WithdrawFromAccount", conn);
             try
@@ -78,20 +81,25 @@ namespace BankSystem
                 
                 conn.Open();
                 int i=cmd.ExecuteNonQuery();
+                if (i > 0) {
+                    rsult = true;
                 }
-                catch (SqlException ex) when (ex.Number == 50002)
+                }
+                catch (SqlException ex)
                 {
-                    
-                    MessageBox.Show("الرصيد غير كافٍ للسحب.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                MessageBox.Show("error" + ex.Message);
             }
             finally
             {
                 conn.Close();
             }
+            return rsult;
             
         }
-        public void TransferFunds(string senderAccountNumber, string receiverAccountNumber, decimal amount,string des)
+        public bool TransferFunds(string senderAccountNumber, string receiverAccountNumber, decimal amount,string des)
         {
+            bool rsult=false;
             SqlConnection conn = new SqlConnection(strConn);
             SqlCommand cmd = new SqlCommand("TransferFunds", conn);
             
@@ -104,17 +112,22 @@ namespace BankSystem
                 {
                 conn.Open();
                 int i=cmd.ExecuteNonQuery();
+                if (i > 0) {
+                    rsult=true;
+                }
+
                 
 
                 }
-                catch (SqlException ex) when (ex.Number == 50003)
+                catch (SqlException ex) 
                 {
-                    MessageBox.Show("الرصيد غير كافٍ في حساب المرسل.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(" error"+ex);
             }
             finally
             {
                 conn.Close();
             }
+            return rsult;
             
         }
 
@@ -175,7 +188,19 @@ namespace BankSystem
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            WithdrawFromAccount(accountN.Text, decimal.Parse(amount1.Text));
+            string accn = accountN.Text;
+            decimal amou=decimal.Parse(amount1.Text);
+            if(WithdrawFromAccount(accn, amou))
+            {
+                MessageBox.Show("تمت عملية السحب بنجاح.", "نجاع", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                accountN.Text = " ";
+                amount1.Text = " ";
+            }
+            else
+            {
+                MessageBox.Show("الرصيد غير كافٍ للسحب.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void guna2Button9_Click(object sender, EventArgs e)
@@ -203,7 +228,20 @@ namespace BankSystem
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            TransferFunds(sendAcount.Text,rAccountN.Text,decimal.Parse(amount3.Text), description.Text);
+
+            
+            if (TransferFunds(sendAcount.Text, rAccountN.Text, decimal.Parse(amount3.Text), description.Text))
+            {
+                MessageBox.Show("تمت عملية التحويل بنجاح.", "نجاح", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                amount3.Text = " ";
+                sendAcount.Text = " ";
+                rAccountN.Text = " ";
+                description.Text = " ";
+            }
+            else
+            {
+                MessageBox.Show("الرصيد غير كافٍ في حساب المرسل.", "خطأ", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
