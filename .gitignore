@@ -6,11 +6,7 @@ obj/
 *.pdb
 
 # مجلد Visual Studio
-.vs/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
+
 
 # ملفات مؤقتة
 *.log
