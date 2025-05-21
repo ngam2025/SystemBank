@@ -142,6 +142,7 @@ namespace BankSystem
             }
                         
 
+             
         }
 
         private void guna2TextBox3_MouseEnter(object sender, EventArgs e)
