@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,8 +16,8 @@ namespace BankSystem.counts_pages
 {
     public partial class add_counts : UserControl
     {
-        private string fileCardImage;
-        private string filePhoto;
+        private byte[] fileCardImage;
+        private byte[] filePhoto;
         public add_counts()
         {
             InitializeComponent();
@@ -96,7 +97,36 @@ namespace BankSystem.counts_pages
 
         private void add_counts_Load(object sender, EventArgs e)
         {
+            int x = (this.Width - guna2Panel1.Width) / 2;
+            int y = (this.Height - guna2Panel1.Height) / 2;
+            guna2Panel1.Location = new Point(x, y);
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.png)|*.jpg; *.jpeg; *.png";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                IDCardimage.Image = new Bitmap(open.FileName);
 
+                fileCardImage = File.ReadAllBytes(open.FileName);
+
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.png)|*.jpg; *.jpeg; *.png";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+
+                phot.Image = new Bitmap(open.FileName);
+
+                filePhoto = File.ReadAllBytes(open.FileName);
+
+            }
         }
         private void addnewAccount()
         {
@@ -112,14 +142,15 @@ namespace BankSystem.counts_pages
             using (SqlConnection conn = new SqlConnection(strConn))
             {
                 
-                SqlCommand cmd = new SqlCommand(" [dbo].[createCustomerWithAccount]", conn);
+                SqlCommand cmd = new SqlCommand("createCustomerWithAccount", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
                 
                 cmd.Parameters.AddWithValue("@FullName", FirstName.Text + " " + LastName.Text);
                 cmd.Parameters.AddWithValue("@IDcard", IDcard.Text);
                 cmd.Parameters.AddWithValue("@Phone", phoneNamber.Text);
-                
+                cmd.Parameters.AddWithValue("@IDCardImage", fileCardImage);
+                cmd.Parameters.AddWithValue("@Photo", filePhoto);
                 cmd.Parameters.AddWithValue("@AccountType", AccountType.Text);
                 cmd.Parameters.AddWithValue("@Balance", decimal.Parse(Blance.Text));
                 cmd.Parameters.AddWithValue("@BranchID", int.Parse(BranchID.Text)); 
@@ -141,27 +172,15 @@ namespace BankSystem.counts_pages
                 {
                     MessageBox.Show("Error: " + ex.Message);
                 }
+                finally { conn.Close(); }
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-            OpenFileDialog dlg = new OpenFileDialog();
-            if (dlg.ShowDialog() == DialogResult.OK)
-            {
-                this.fileCardImage = dlg.FileName;
-                IDCardimage.Image = Image.FromFile(fileCardImage);
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog dialog = new OpenFileDialog();
-            if (dialog.ShowDialog() == DialogResult.OK)
-            {
-                this.filePhoto = dialog.FileName;
-                IDCardimage.Image = Image.FromFile(filePhoto);
-            }
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
         }
     }
     

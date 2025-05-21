@@ -81,6 +81,7 @@
             // guna2Panel1
             // 
             this.guna2Panel1.AutoScroll = true;
+            this.guna2Panel1.AutoSize = true;
             this.guna2Panel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
             this.guna2Panel1.BorderRadius = 15;
             this.guna2Panel1.BorderThickness = 2;
@@ -109,9 +110,9 @@
             this.guna2Panel1.Controls.Add(this.guna2ComboBox2);
             this.guna2Panel1.Controls.Add(this.label5);
             this.guna2Panel1.Controls.Add(this.label3);
-            this.guna2Panel1.Location = new System.Drawing.Point(263, 76);
+            this.guna2Panel1.Location = new System.Drawing.Point(243, 35);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(467, 1021);
+            this.guna2Panel1.Size = new System.Drawing.Size(479, 1019);
             this.guna2Panel1.TabIndex = 49;
             // 
             // button2
@@ -413,6 +414,7 @@
             this.guna2Button3.Size = new System.Drawing.Size(114, 47);
             this.guna2Button3.TabIndex = 56;
             this.guna2Button3.Text = "إلغاء";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2ComboBox2
             // 
@@ -457,13 +459,14 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-            this.Size = new System.Drawing.Size(871, 884);
+            this.Size = new System.Drawing.Size(767, 781);
             this.Load += new System.EventHandler(this.add_counts_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.phot)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.IDCardimage)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

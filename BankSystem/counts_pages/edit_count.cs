@@ -53,7 +53,9 @@ namespace BankSystem.counts_pages
 
         private void edit_count_Load(object sender, EventArgs e)
         {
-
+            int x = (this.Width - guna2Panel1.Width) / 2;
+            int y = (this.Height - guna2Panel1.Height) / 2;
+            guna2Panel1.Location = new Point(x, y);
         }
         private void updateAccpunt()
         {
@@ -73,6 +75,10 @@ namespace BankSystem.counts_pages
                 conn.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("تم تعديل بيانات الحساب بنجاح.");
+                guna2TextBox2.Text = " ";
+                nameFull.Text = " ";    
+                numberPhone.Text = " ";
+
             }
             catch (SqlException ex)
             {

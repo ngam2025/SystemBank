@@ -34,7 +34,7 @@
             this.rAccountN = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.tranButt = new Guna.UI2.WinForms.Guna2Button();
             this.description = new Guna.UI2.WinForms.Guna2TextBox();
             this.amount3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -43,26 +43,26 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.phoneNumberA = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.accountN = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
+            this.widthButton = new Guna.UI2.WinForms.Guna2Button();
             this.amount1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.AccountNum = new Guna.UI2.WinForms.Guna2TextBox();
+            this.AccountNumd = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.dospButton6 = new Guna.UI2.WinForms.Guna2Button();
             this.amount = new Guna.UI2.WinForms.Guna2TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.id = new Guna.UI2.WinForms.Guna2TextBox();
+            this.phoneN = new Guna.UI2.WinForms.Guna2TextBox();
             this.accId = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
@@ -96,7 +96,7 @@
             this.tabPage1.Controls.Add(this.rAccountN);
             this.tabPage1.Controls.Add(this.guna2Button9);
             this.tabPage1.Controls.Add(this.guna2Button1);
-            this.tabPage1.Controls.Add(this.guna2Button2);
+            this.tabPage1.Controls.Add(this.tranButt);
             this.tabPage1.Controls.Add(this.description);
             this.tabPage1.Controls.Add(this.amount3);
             this.tabPage1.Controls.Add(this.label6);
@@ -194,24 +194,24 @@
             this.guna2Button1.Text = "إلغاء";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
-            // guna2Button2
+            // tranButt
             // 
-            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.guna2Button2.BorderRadius = 15;
-            this.guna2Button2.BorderThickness = 1;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(69, 507);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(227, 45);
-            this.guna2Button2.TabIndex = 37;
-            this.guna2Button2.Text = "موافق";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.tranButt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.tranButt.BorderRadius = 15;
+            this.tranButt.BorderThickness = 1;
+            this.tranButt.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.tranButt.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.tranButt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.tranButt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.tranButt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
+            this.tranButt.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tranButt.ForeColor = System.Drawing.Color.White;
+            this.tranButt.Location = new System.Drawing.Point(69, 507);
+            this.tranButt.Name = "tranButt";
+            this.tranButt.Size = new System.Drawing.Size(227, 45);
+            this.tranButt.TabIndex = 37;
+            this.tranButt.Text = "موافق";
+            this.tranButt.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // description
             // 
@@ -309,14 +309,14 @@
             // 
             this.tabPage2.BackColor = System.Drawing.Color.LightGray;
             this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tabPage2.Controls.Add(this.phoneNumberA);
+            this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.accountN);
             this.tabPage2.Controls.Add(this.guna2Button8);
             this.tabPage2.Controls.Add(this.guna2Button5);
-            this.tabPage2.Controls.Add(this.guna2Button4);
+            this.tabPage2.Controls.Add(this.widthButton);
             this.tabPage2.Controls.Add(this.amount1);
-            this.tabPage2.Controls.Add(this.guna2ComboBox2);
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.label4);
             this.tabPage2.Controls.Add(this.label3);
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
@@ -326,6 +326,37 @@
             this.tabPage2.Size = new System.Drawing.Size(483, 615);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "سحب";
+            // 
+            // phoneNumberA
+            // 
+            this.phoneNumberA.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.phoneNumberA.BorderRadius = 15;
+            this.phoneNumberA.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.phoneNumberA.DefaultText = "";
+            this.phoneNumberA.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.phoneNumberA.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.phoneNumberA.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.phoneNumberA.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.phoneNumberA.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.phoneNumberA.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.phoneNumberA.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.phoneNumberA.Location = new System.Drawing.Point(96, 230);
+            this.phoneNumberA.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.phoneNumberA.Name = "phoneNumberA";
+            this.phoneNumberA.PlaceholderText = "";
+            this.phoneNumberA.SelectedText = "";
+            this.phoneNumberA.Size = new System.Drawing.Size(358, 44);
+            this.phoneNumberA.TabIndex = 41;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(307, 158);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(155, 47);
+            this.label5.TabIndex = 40;
+            this.label5.Text = "او رقم الهاتف:";
             // 
             // accountN
             // 
@@ -340,7 +371,7 @@
             this.accountN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.accountN.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.accountN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.accountN.Location = new System.Drawing.Point(115, 70);
+            this.accountN.Location = new System.Drawing.Point(96, 70);
             this.accountN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.accountN.Name = "accountN";
             this.accountN.PlaceholderText = "";
@@ -360,9 +391,9 @@
             this.guna2Button8.FillColor = System.Drawing.Color.Empty;
             this.guna2Button8.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold);
             this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.Location = new System.Drawing.Point(380, 496);
+            this.guna2Button8.Location = new System.Drawing.Point(380, 510);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(93, 59);
+            this.guna2Button8.Size = new System.Drawing.Size(93, 55);
             this.guna2Button8.TabIndex = 38;
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
@@ -378,31 +409,31 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
             this.guna2Button5.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(356, 365);
+            this.guna2Button5.Location = new System.Drawing.Point(260, 510);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(114, 45);
             this.guna2Button5.TabIndex = 27;
             this.guna2Button5.Text = "إلغاء";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
-            // guna2Button4
+            // widthButton
             // 
-            this.guna2Button4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.guna2Button4.BorderRadius = 15;
-            this.guna2Button4.BorderThickness = 1;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(112, 365);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(227, 45);
-            this.guna2Button4.TabIndex = 26;
-            this.guna2Button4.Text = "موافق";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
+            this.widthButton.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.widthButton.BorderRadius = 15;
+            this.widthButton.BorderThickness = 1;
+            this.widthButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.widthButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.widthButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.widthButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.widthButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
+            this.widthButton.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.widthButton.ForeColor = System.Drawing.Color.White;
+            this.widthButton.Location = new System.Drawing.Point(21, 510);
+            this.widthButton.Name = "widthButton";
+            this.widthButton.Size = new System.Drawing.Size(219, 45);
+            this.widthButton.TabIndex = 26;
+            this.widthButton.Text = "موافق";
+            this.widthButton.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // amount1
             // 
@@ -417,7 +448,7 @@
             this.amount1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.amount1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.amount1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.amount1.Location = new System.Drawing.Point(112, 294);
+            this.amount1.Location = new System.Drawing.Point(96, 360);
             this.amount1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.amount1.Name = "amount1";
             this.amount1.PlaceholderText = "";
@@ -425,44 +456,15 @@
             this.amount1.Size = new System.Drawing.Size(358, 44);
             this.amount1.TabIndex = 24;
             // 
-            // guna2ComboBox2
-            // 
-            this.guna2ComboBox2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox2.BorderRadius = 15;
-            this.guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox2.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox2.ItemHeight = 30;
-            this.guna2ComboBox2.Items.AddRange(new object[] {
-            "توفير",
-            "جاري"});
-            this.guna2ComboBox2.Location = new System.Drawing.Point(112, 191);
-            this.guna2ComboBox2.Name = "guna2ComboBox2";
-            this.guna2ComboBox2.Size = new System.Drawing.Size(358, 36);
-            this.guna2ComboBox2.TabIndex = 23;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(396, 242);
+            this.label2.Location = new System.Drawing.Point(380, 296);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 47);
             this.label2.TabIndex = 20;
             this.label2.Text = "المبلغ:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(340, 119);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 47);
-            this.label5.TabIndex = 19;
-            this.label5.Text = "نوع الحساب:";
             // 
             // label4
             // 
@@ -487,15 +489,15 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.LightGray;
-            this.tabPage3.Controls.Add(this.AccountNum);
+            this.tabPage3.Controls.Add(this.AccountNumd);
             this.tabPage3.Controls.Add(this.guna2Button7);
             this.tabPage3.Controls.Add(this.guna2Button3);
-            this.tabPage3.Controls.Add(this.guna2Button6);
+            this.tabPage3.Controls.Add(this.dospButton6);
             this.tabPage3.Controls.Add(this.amount);
             this.tabPage3.Controls.Add(this.label11);
             this.tabPage3.Controls.Add(this.label13);
             this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.id);
+            this.tabPage3.Controls.Add(this.phoneN);
             this.tabPage3.Controls.Add(this.accId);
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
@@ -504,26 +506,26 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "إيداع";
             // 
-            // AccountNum
+            // AccountNumd
             // 
-            this.AccountNum.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.AccountNum.BorderRadius = 15;
-            this.AccountNum.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.AccountNum.DefaultText = "";
-            this.AccountNum.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.AccountNum.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.AccountNum.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.AccountNum.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.AccountNum.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AccountNum.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.AccountNum.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AccountNum.Location = new System.Drawing.Point(92, 165);
-            this.AccountNum.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.AccountNum.Name = "AccountNum";
-            this.AccountNum.PlaceholderText = "";
-            this.AccountNum.SelectedText = "";
-            this.AccountNum.Size = new System.Drawing.Size(365, 44);
-            this.AccountNum.TabIndex = 38;
+            this.AccountNumd.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.AccountNumd.BorderRadius = 15;
+            this.AccountNumd.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.AccountNumd.DefaultText = "";
+            this.AccountNumd.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.AccountNumd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.AccountNumd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.AccountNumd.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.AccountNumd.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AccountNumd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AccountNumd.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AccountNumd.Location = new System.Drawing.Point(92, 165);
+            this.AccountNumd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.AccountNumd.Name = "AccountNumd";
+            this.AccountNumd.PlaceholderText = "";
+            this.AccountNumd.SelectedText = "";
+            this.AccountNumd.Size = new System.Drawing.Size(365, 44);
+            this.AccountNumd.TabIndex = 38;
             // 
             // guna2Button7
             // 
@@ -562,24 +564,24 @@
             this.guna2Button3.Text = "إلغاء";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
-            // guna2Button6
+            // dospButton6
             // 
-            this.guna2Button6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.guna2Button6.BorderRadius = 15;
-            this.guna2Button6.BorderThickness = 1;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(82, 409);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(227, 45);
-            this.guna2Button6.TabIndex = 35;
-            this.guna2Button6.Text = "موافق";
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            this.dospButton6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.dospButton6.BorderRadius = 15;
+            this.dospButton6.BorderThickness = 1;
+            this.dospButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.dospButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.dospButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.dospButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.dospButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(129)))), ((int)(((byte)(223)))));
+            this.dospButton6.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dospButton6.ForeColor = System.Drawing.Color.White;
+            this.dospButton6.Location = new System.Drawing.Point(82, 409);
+            this.dospButton6.Name = "dospButton6";
+            this.dospButton6.Size = new System.Drawing.Size(227, 45);
+            this.dospButton6.TabIndex = 35;
+            this.dospButton6.Text = "موافق";
+            this.dospButton6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // amount
             // 
@@ -618,11 +620,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(342, 113);
+            this.label13.Location = new System.Drawing.Point(302, 113);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(135, 47);
+            this.label13.Size = new System.Drawing.Size(163, 47);
             this.label13.TabIndex = 29;
-            this.label13.Text = "رقم الحساب:";
+            this.label13.Text = "او رقم الحساب:";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
@@ -636,36 +638,36 @@
             this.label14.TabIndex = 28;
             this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
-            // id
+            // phoneN
             // 
-            this.id.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
-            this.id.BorderRadius = 15;
-            this.id.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.id.DefaultText = "";
-            this.id.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.id.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.id.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.id.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.id.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.id.Location = new System.Drawing.Point(92, 64);
-            this.id.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.id.Name = "id";
-            this.id.PlaceholderText = "";
-            this.id.SelectedText = "";
-            this.id.Size = new System.Drawing.Size(365, 44);
-            this.id.TabIndex = 26;
+            this.phoneN.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(70)))), ((int)(((byte)(131)))));
+            this.phoneN.BorderRadius = 15;
+            this.phoneN.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.phoneN.DefaultText = "";
+            this.phoneN.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.phoneN.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.phoneN.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.phoneN.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.phoneN.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.phoneN.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.phoneN.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.phoneN.Location = new System.Drawing.Point(92, 64);
+            this.phoneN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.phoneN.Name = "phoneN";
+            this.phoneN.PlaceholderText = "";
+            this.phoneN.SelectedText = "";
+            this.phoneN.Size = new System.Drawing.Size(365, 44);
+            this.phoneN.TabIndex = 26;
             // 
             // accId
             // 
             this.accId.AutoSize = true;
             this.accId.Font = new System.Drawing.Font("Simplified Arabic", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.accId.Location = new System.Drawing.Point(318, 12);
+            this.accId.Location = new System.Drawing.Point(338, 12);
             this.accId.Name = "accId";
-            this.accId.Size = new System.Drawing.Size(159, 47);
+            this.accId.Size = new System.Drawing.Size(127, 47);
             this.accId.TabIndex = 25;
-            this.accId.Text = "معرف الحساب:";
+            this.accId.Text = "رقم الهاتف:";
             this.accId.Click += new System.EventHandler(this.label10_Click);
             // 
             // label15
@@ -709,15 +711,13 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button widthButton;
         private Guna.UI2.WinForms.Guna2TextBox amount1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button tranButt;
         private Guna.UI2.WinForms.Guna2TextBox description;
         private Guna.UI2.WinForms.Guna2TextBox amount3;
         private System.Windows.Forms.Label label6;
@@ -726,20 +726,22 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button dospButton6;
         private Guna.UI2.WinForms.Guna2TextBox amount;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private Guna.UI2.WinForms.Guna2TextBox id;
-        private System.Windows.Forms.Label accId;
         private System.Windows.Forms.Label label15;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2TextBox AccountNum;
+        private Guna.UI2.WinForms.Guna2TextBox AccountNumd;
         private Guna.UI2.WinForms.Guna2TextBox accountN;
         private Guna.UI2.WinForms.Guna2TextBox sendAcount;
         private Guna.UI2.WinForms.Guna2TextBox rAccountN;
+        private Guna.UI2.WinForms.Guna2TextBox phoneN;
+        private System.Windows.Forms.Label accId;
+        private Guna.UI2.WinForms.Guna2TextBox phoneNumberA;
+        private System.Windows.Forms.Label label5;
     }
 }

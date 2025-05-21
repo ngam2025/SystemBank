@@ -33,7 +33,7 @@
             this.Blance = new System.Windows.Forms.Label();
             this.AccountType = new System.Windows.Forms.Label();
             this.AccountNamber = new System.Windows.Forms.Label();
-            this.IDCardimage = new System.Windows.Forms.Label();
+            this.IDCard = new System.Windows.Forms.Label();
             this.Phone = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.Label();
             this.Photo = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -90,7 +90,7 @@
             this.guna2Panel1.Controls.Add(this.Blance);
             this.guna2Panel1.Controls.Add(this.AccountType);
             this.guna2Panel1.Controls.Add(this.AccountNamber);
-            this.guna2Panel1.Controls.Add(this.IDCardimage);
+            this.guna2Panel1.Controls.Add(this.IDCard);
             this.guna2Panel1.Controls.Add(this.Phone);
             this.guna2Panel1.Controls.Add(this.name);
             this.guna2Panel1.Controls.Add(this.Photo);
@@ -121,7 +121,7 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(467, 901);
             this.guna2Panel1.TabIndex = 52;
-            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
+          
             // 
             // opendedDate
             // 
@@ -159,14 +159,14 @@
             this.AccountNamber.Size = new System.Drawing.Size(356, 32);
             this.AccountNamber.TabIndex = 100;
             // 
-            // IDCardimage
+            // IDCard
             // 
-            this.IDCardimage.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IDCardimage.Location = new System.Drawing.Point(84, 472);
-            this.IDCardimage.Name = "IDCardimage";
-            this.IDCardimage.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.IDCardimage.Size = new System.Drawing.Size(356, 32);
-            this.IDCardimage.TabIndex = 99;
+            this.IDCard.Font = new System.Drawing.Font("Simplified Arabic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDCard.Location = new System.Drawing.Point(84, 472);
+            this.IDCard.Name = "IDCard";
+            this.IDCard.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.IDCard.Size = new System.Drawing.Size(356, 32);
+            this.IDCard.TabIndex = 99;
             // 
             // Phone
             // 
@@ -189,9 +189,9 @@
             // Photo
             // 
             this.Photo.ImageRotate = 0F;
-            this.Photo.Location = new System.Drawing.Point(288, 349);
+            this.Photo.Location = new System.Drawing.Point(245, 349);
             this.Photo.Name = "Photo";
-            this.Photo.Size = new System.Drawing.Size(145, 68);
+            this.Photo.Size = new System.Drawing.Size(188, 68);
             this.Photo.TabIndex = 96;
             this.Photo.TabStop = false;
             // 
@@ -283,7 +283,7 @@
             this.id.Size = new System.Drawing.Size(206, 42);
             this.id.TabIndex = 86;
             this.id.Text = "رقم البطاقة الشخصية:";
-            this.id.Click += new System.EventHandler(this.label9_Click);
+           
             // 
             // guna2Panel10
             // 
@@ -448,7 +448,7 @@
             this.Fullname.Size = new System.Drawing.Size(205, 38);
             this.Fullname.TabIndex = 80;
             this.Fullname.Text = "الاسم الكامل :";
-            this.Fullname.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // guna2Button1
             // 
@@ -478,7 +478,7 @@
             this.pho.Size = new System.Drawing.Size(129, 42);
             this.pho.TabIndex = 63;
             this.pho.Text = "الصورة:";
-            this.pho.Click += new System.EventHandler(this.label7_Click);
+           
             // 
             // guna2TextBox2
             // 
@@ -500,7 +500,7 @@
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(296, 46);
             this.guna2TextBox2.TabIndex = 58;
-            this.guna2TextBox2.TextChanged += new System.EventHandler(this.guna2TextBox2_TextChanged);
+            
             // 
             // label1
             // 
@@ -529,6 +529,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(366, 47);
             this.guna2Button2.TabIndex = 47;
             this.guna2Button2.Text = "إغلاق";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2ComboBox2
             // 
@@ -573,7 +574,7 @@
             this.AutoScroll = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "show_count";
-            this.Size = new System.Drawing.Size(1001, 884);
+            this.Size = new System.Drawing.Size(975, 884);
             this.Load += new System.EventHandler(this.show_count_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -627,7 +628,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox Photo;
         private System.Windows.Forms.Label Phone;
         private System.Windows.Forms.Label name;
-        private System.Windows.Forms.Label IDCardimage;
+        private System.Windows.Forms.Label IDCard;
         private System.Windows.Forms.Label AccountNamber;
         private System.Windows.Forms.Label AccountType;
         private System.Windows.Forms.Label Blance;

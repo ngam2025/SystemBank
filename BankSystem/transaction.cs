@@ -37,6 +37,9 @@ namespace BankSystem
         private void transaction_Load(object sender, EventArgs e)
         {
             displayEmployees();
+            int x = (this.Width - guna2Panel2.Width)/2;
+            int y=(this.Height - guna2Panel2.Height)/2;
+            guna2Panel2.Location = new Point(x, y); 
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
@@ -46,19 +49,6 @@ namespace BankSystem
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if(e.RowIndex < 0||e.RowIndex>= guna2DataGridView1.Rows.Count)
-            {
-                return;
-            }
-            row= guna2DataGridView1.Rows[e.RowIndex];
-            var id = row.Cells[0].Value;
-            var username= row.Cells[1].Value;
-            var fullName= row.Cells[2].Value;   
-            var herDate= row.Cells[3].Value;
-            var salary= row.Cells[4].Value;
-            var branchName= row.Cells[5].Value;
-            
-
         }
         private void deleteEmployee(int id)
         {
@@ -83,9 +73,6 @@ namespace BankSystem
         private void displayEmployees()
         {
 
-            
-            
-            //string sql = "select *from Employees;";
             SqlConnection conn = new SqlConnection(connectString);
              dt = new SqlDataAdapter("getAllEmployeesBranch", conn);
             dt.SelectCommand.CommandType = CommandType.StoredProcedure;
@@ -116,27 +103,16 @@ namespace BankSystem
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-          
             if (guna2DataGridView1.SelectedRows.Count > 0)
             {
-                // تأكيد الحذف
                 DialogResult results = MessageBox.Show("هل أنت متأكد من حذف هذا الصف؟", "تأكيد الحذف", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
                 if (results == DialogResult.Yes)
                 {
-                    
                     DataRowView drv = (DataRowView)guna2DataGridView1.SelectedRows[0].DataBoundItem;
                     DataRow row = drv.Row;
                     int id = (int)row[0];
-                    
                     deleteEmployee(id);
-                    
                     row.Delete();
-
-
-
-
-                    displayEmployees();
                     MessageBox.Show("تم حذف الصف بنجاح.");
                 }
             }
@@ -158,11 +134,11 @@ namespace BankSystem
             }
             try
             {
-                result.DefaultView.RowFilter = "$ID= { idtext}";
+                result.DefaultView.RowFilter = $"EmployeeID='{ idtext}'";
                 guna2DataGridView1.DataSource = result.DefaultView;
             }
             catch (Exception ex) {
-                MessageBox.Show("error " + ex);
+                MessageBox.Show("error " + ex.Message);
             }
                         
 
@@ -172,5 +148,7 @@ namespace BankSystem
         {
             guna2TextBox3 .Text= " ";
         }
+
+      
     }
 }

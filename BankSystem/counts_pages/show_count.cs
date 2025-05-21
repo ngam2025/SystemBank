@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TreeView;
+
 
 namespace BankSystem.counts_pages
 {
@@ -20,25 +18,7 @@ namespace BankSystem.counts_pages
             InitializeComponent();
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void displayEmployees()
         {
@@ -58,7 +38,12 @@ namespace BankSystem.counts_pages
                     {
                         name.Text = reader[1].ToString();
                         Phone.Text=reader[2].ToString();
-                        IDCardimage.Text = reader[4].ToString();
+                        byte[] img = (byte[])reader[3];
+                        using (MemoryStream sm = new MemoryStream(img))
+                        {
+                            Photo.Image = Image.FromStream(sm);
+                        }
+                        IDCard.Text = reader[4].ToString();
                         AccountNamber.Text=reader[5].ToString();
                         AccountType.Text=reader[6].ToString();
                         Blance.Text=reader[7].ToString();
@@ -76,7 +61,9 @@ namespace BankSystem.counts_pages
 
         private void show_count_Load(object sender, EventArgs e)
         {
-
+            int x = (this.Width - guna2Panel1.Width) / 2;
+            int y = (this.Height - guna2Panel1.Height) / 2;
+            guna2Panel1.Location = new Point(x, y);
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -84,9 +71,12 @@ namespace BankSystem.counts_pages
             displayEmployees();
         }
 
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
 
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            mainInterface mainInterface = new mainInterface();
+            mainInterface.Show();
+            this.Hide();
         }
     }
 }
