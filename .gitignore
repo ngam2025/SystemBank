@@ -1,24 +1,4 @@
-# ملفات البناء
-bin/
-obj/
-*.exe
-*.dll
-*.pdb
-
-# مجلد Visual Studio
 
 
-# ملفات مؤقتة
-*.log
-*.tmp
-
-# إعدادات بيئة التطوير
-*.dbmdl
-*.bak
-*.cache
-*.idx
-*.vsidx
 
 # مجلدات IntelliCode و GitHub Copilot
-.vscode/
-CopilotIndices/
