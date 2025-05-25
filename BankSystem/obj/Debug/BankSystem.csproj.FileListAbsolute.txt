@@ -58,6 +58,3 @@ C:\Users\HP\Desktop\my_new_BankProject\SystemBank\BankSystem\obj\Debug\BankSyste
 C:\Users\HP\Desktop\my_new_BankProject\SystemBank\BankSystem\obj\Debug\BankSystem.csproj.Up2Date
 C:\Users\HP\Desktop\my_new_BankProject\SystemBank\BankSystem\obj\Debug\BankSystem.exe
 C:\Users\HP\Desktop\my_new_BankProject\SystemBank\BankSystem\obj\Debug\BankSystem.pdb
-D:\GitHup\SystemBank\BankSystem\obj\Debug\BankSystem.Reports.resources
-D:\GitHup\SystemBank\BankSystem\obj\Debug\BankSystem.reports.frmAccountsView.resources
-D:\GitHup\SystemBank\BankSystem\obj\Debug\BankSystem.reports.frmBankBalance.resources
