@@ -43,7 +43,8 @@ namespace BankSystem
                 {
 
                     mainInterface mainInterface = new mainInterface();
-                    string usernameLo = ConfigurationManager.AppSettings["username"];
+                    SessionManager.Initialize(username);
+
                     mainInterface.Show();
                     this.Hide();
                 }
