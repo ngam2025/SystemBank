@@ -52,5 +52,19 @@ namespace BankSystem
             transaction.Show();
             this.Hide();
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            if (SessionManager.IsAdmin())
+            {
+                Reports rep = new Reports();
+                rep.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("You don`t have the authority !");
+            }
+        }
     }
 }
