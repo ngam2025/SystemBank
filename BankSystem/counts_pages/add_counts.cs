@@ -97,9 +97,7 @@ namespace BankSystem.counts_pages
 
         private void add_counts_Load(object sender, EventArgs e)
         {
-            int x = (this.Width - guna2Panel1.Width) / 2;
-            int y = (this.Height - guna2Panel1.Height) / 2;
-            guna2Panel1.Location = new Point(x, y);
+            guna2Panel1.Top = 0;
         }
         private void button1_Click(object sender, EventArgs e)
         {
