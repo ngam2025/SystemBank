@@ -36,7 +36,8 @@ namespace BankSystem
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-
+            frmAccountsView frmAccountsView=new frmAccountsView();
+            addUserControl(frmAccountsView);
         }
     }
 }

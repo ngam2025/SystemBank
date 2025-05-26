@@ -110,9 +110,9 @@
             this.guna2Panel1.Controls.Add(this.guna2ComboBox2);
             this.guna2Panel1.Controls.Add(this.label5);
             this.guna2Panel1.Controls.Add(this.label3);
-            this.guna2Panel1.Location = new System.Drawing.Point(243, 35);
+            this.guna2Panel1.Location = new System.Drawing.Point(243, 14);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(479, 1019);
+            this.guna2Panel1.Size = new System.Drawing.Size(479, 1047);
             this.guna2Panel1.TabIndex = 49;
             // 
             // button2
@@ -457,9 +457,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSize = true;
             this.Controls.Add(this.guna2Panel1);
             this.Name = "add_counts";
-            this.Size = new System.Drawing.Size(767, 781);
+            this.Size = new System.Drawing.Size(832, 1129);
             this.Load += new System.EventHandler(this.add_counts_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();

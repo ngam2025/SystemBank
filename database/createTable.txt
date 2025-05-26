@@ -1,0 +1,55 @@
+use Bankdb;
+CREATE TABLE Employees (
+    EmployeeID INT identity(1,1),
+	Username AS('20'+'04'+right('000'+cast(EmployeeID as varchar(3)),3) )persisted,
+    FullName  NVARCHAR(100),
+    [Password] NVARCHAR(50),
+   
+    BrancheID   INT,
+    HireDate   DATE not null default getDate(),
+    Salary decimal(12,2),
+   [Role]   NVARCHAR(50)
+    CONSTRAINT PK_Employees PRIMARY KEY clustered (EmployeeID),
+    CONSTRAINT FK_Employees_Branches FOREIGN KEY (BrancheID)REFERENCES Branches(BranchID)
+);
+CREATE TABLE Customers (
+    CustomerID   INT  identity(1,1),
+    FirstName    NVARCHAR(50),
+    LastName     NVARCHAR(50),
+	IDCard       varchar(20),
+    Phone        NVARCHAR(20),
+    
+    IDCardImage  VARBINARY(MAX),
+    Photo        VARBINARY(MAX),
+    CONSTRAINT PK_Customers PRIMARY KEY (CustomerID)
+);
+CREATE TABLE Accounts (
+    AccountID     INT identity(1,1),
+    CustomerID   int ,
+    AccountNumber  as('30'+'03'+right('000000'+cast(AccountID as varchar(6)),6))persisted,
+    AccountType   NVARCHAR(50),
+    Balance       DECIMAL(10,2),
+    OpenedDate    DATE default getdate(),
+    BranchID      INT,
+    CONSTRAINT PK_Accounts PRIMARY KEY clustered (AccountID),
+    CONSTRAINT FK_Accounts_Customers FOREIGN KEY (CustomerID)
+        REFERENCES Customers(CustomerID),
+    CONSTRAINT FK_Accounts_Branches FOREIGN KEY (BranchID)
+        REFERENCES Branches(BranchID)
+);
+
+CREATE TABLE Transactions (
+    TransactionID   INT identity(1,1),
+    AccountID       INT,
+    EmployeeID      INT,
+    TransactionType NVARCHAR(50),
+    Amount          DECIMAL(10,2),
+    TransactionDate  DATETIME not null default sysdatetime(),
+    Description     NVARCHAR(500),
+    CONSTRAINT PK_Transactions PRIMARY KEY (TransactionID),
+    CONSTRAINT FK_Transactions_Accounts FOREIGN KEY (AccountID)
+        REFERENCES Accounts(AccountID),
+    CONSTRAINT FK_Transactions_Employees FOREIGN KEY (EmployeeID)
+        REFERENCES Employees(EmployeeID)
+);
+
